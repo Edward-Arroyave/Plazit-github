@@ -1,0 +1,5 @@
+D:\GithubActions\Plazit-github\HelloApp\bin\Release\net9.0\publish\HelloApp.exe
+D:\GithubActions\Plazit-github\HelloApp\bin\Release\net9.0\publish\HelloApp.dll
+D:\GithubActions\Plazit-github\HelloApp\bin\Release\net9.0\publish\HelloApp.deps.json
+D:\GithubActions\Plazit-github\HelloApp\bin\Release\net9.0\publish\HelloApp.runtimeconfig.json
+D:\GithubActions\Plazit-github\HelloApp\bin\Release\net9.0\publish\HelloApp.pdb

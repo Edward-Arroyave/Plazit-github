@@ -1,0 +1,10 @@
+
+services:
+  miappconsola:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: consola_csharp
+    image: consola_csharp
+    ports:
+      - "5000:5000"
