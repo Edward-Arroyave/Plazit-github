@@ -19,6 +19,9 @@ jobs:
       - name: Set up Docker Compose
         run: sudo apt-get update && sudo apt-get install -y docker-compose
 
-      - name: Build and run containers with Docker Compose
-        run: docker-compose up --build -d
+      - name: Build image 
+        run: docker build -t helloapp .
+        working-directory: HelloApp
+      - name: Run Docker image
+        run: docker run  helloapp  
         working-directory: HelloApp
